@@ -18,6 +18,6 @@
     <param name="angle_max" value="1.5707963"/>
   </node>
 
-  <node name="hokuyo_transform_publisher" pkg="tf" type="static_transform_publisher" args="-0.13 0 0.250 0 0 0 /front_rail /hokuyo" />
+  <node name="hokuyo_transform_publisher" pkg="tf" type="static_transform_publisher" args="-0.13 0 0.250 0 0 0 /front_rail /hokuyo 100" />
 
 </launch>
